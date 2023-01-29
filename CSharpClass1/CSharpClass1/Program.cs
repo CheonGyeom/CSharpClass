@@ -224,9 +224,48 @@ namespace CSharpClass1
             System.Console.WriteLine($"0번 값은 {lang[0]} 입니다");
             lang[0] = "개졸려";
             System.Console.WriteLine($"0번 값은 {lang[0]} 입니다");
+
+
+
             */
 
+            // 식당에 음식이 떡볶이, 김밥, 라면, 라뽂이가 있다.
+            // 이 중에 숫자를 입력받으면
+            // 입력 받은 값은 비어있게 된다.
 
+            // 최초 음식들과
+            // 숫자를 입력받았을 때 음식을 출력하고
+
+            // 비어있게 되었다 라는 결과값도 출력하라.
+
+            string[] food = new string[5] { "", "떡볶이", "김밥", "라면", "라볶이" };
+            string strNum;
+            int num;
+
+
+            System.Console.WriteLine("식당에 떡볶이, 김밥, 라면, 라볶이가 있습니다.");
+            System.Console.WriteLine("먹고 싶은 음식의 번호를 입력해주세요.");
+            strNum = System.Console.ReadLine();
+
+            // 형변환
+            num = Convert.ToInt32(strNum);
+
+            System.Console.WriteLine(food[num] + "를 고르셨습니다");
+
+            food[num] = ""; // 먹은 음식 지우기
+
+            System.Console.WriteLine("남은 음식은 " + food[1] + "," + food[2] + "," + food[3] + "," + food[4] + "이 있습니다") ;
+
+            //숫자를 ㅇㅣㅂ력해주세요 리드라인으로 받기
+
+
+            //    입력받은 숫자에 해당하는 값을 라이트라인
+
+            //    하고 그 번호의 음식을 배열에서 지운다
+
+            //    스트링 재정의 떡뽁이 따옴표 떡볶이
+
+            //    그리고 남은 값 모두 출력
         }
     }
 }

@@ -118,15 +118,16 @@ namespace CSharpClass1
             System.Console.WriteLine("당신의 만 나이는 : " + myAge);
             */
 
-//            System.Console.Write
-//(@"      ㅁ
-//     ㅁㅁ
-//    ㅁㅁㅁ
-//   ㅁㅁㅁㅁ
-//  ㅁㅁㅁㅁㅁ
-// ㅁㅁㅁㅁㅁㅁ
-//ㅁㅁㅁㅁㅁㅁㅁ");
+            //            System.Console.Write
+            //(@"      ㅁ
+            //     ㅁㅁ
+            //    ㅁㅁㅁ
+            //   ㅁㅁㅁㅁ
+            //  ㅁㅁㅁㅁㅁ
+            // ㅁㅁㅁㅁㅁㅁ
+            //ㅁㅁㅁㅁㅁㅁㅁ");
 
+            /*
 
             // 1. 변수형 종류 주석으로 작성 후, 각 변수형들의 최대값 최소값 출력하기
             // char
@@ -166,13 +167,64 @@ namespace CSharpClass1
          ****
    ***************
       *********
-     ***********
-    ***       ***
+       ********
+     ***    ***
 ");
             // 4. int값을 float 로 캐스팅하기
             // 3.12 를 int 값으로 캐스팅(형변환)하기
             float f = 3.12f;
             int i = (int)f;
+
+            */
+
+            /*
+            // 이름을 입력받는다.
+            // 입력 받은 이름의 길이를 숫자로 바꾸고
+            // 받은 숫자를 출력한다.
+            string name;
+            int nameLength;
+
+            Console.WriteLine("이름을 입력해주세요");
+            name = Console.ReadLine();
+
+            nameLength = name.Length;
+
+            Console.WriteLine(nameLength);
+            */
+
+            /*
+            // int형 5칸 짜리 배열 5개 만들고
+            // string형 5칸 짜리 배열 5개 만들기
+            int[] i1 = new int[5] { 1, 2, 3, 4, 5 };
+            int[] i2 = new int[5] { 9, 8, 7, 6, 5 };
+            int[] i3 = new int[5] { 12, 23, 34, 45, 56 };
+            int[] i4 = new int[5] { 456, 324, 85, 2456, 6743 };
+            int[] i5 = new int[5] { 121212, 824, 2, 44, 2 };
+
+            string[] str1 = new string[5] { "안", "녕", "하", "세", "요" };
+            string[] str2 = new string[5] { "하나", "둘", "셋", "넷", "다섯" };
+            string[] str3 = new string[5] { "Good", "Hi", "Name", "Home", "Yes" };
+            string[] str4 = new string[5] { "네", "아니요", "Hello", "ㅇㅇ", "네" };
+            string[] str5 = new string[5] { "rm", "wrrw", "dwdad", "w", "www" };
+
+            int[] LaterArray;
+
+            System.Console.WriteLine("배열의 크기는?");
+            string ArraySize;
+            ArraySize = System.Console.ReadLine();
+
+            LaterArray = new int[Convert.ToInt32(ArraySize)];
+
+
+            string[] lang = new string[3];
+            lang[0] = "c";
+            lang[1] = "C++";
+            lang[2] = "C#";
+
+            System.Console.WriteLine($"0번 값은 {lang[0]} 입니다");
+            lang[0] = "개졸려";
+            System.Console.WriteLine($"0번 값은 {lang[0]} 입니다");
+            */
 
 
         }

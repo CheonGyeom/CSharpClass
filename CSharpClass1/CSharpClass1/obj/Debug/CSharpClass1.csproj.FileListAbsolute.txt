@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\새 폴더 (2)\CSharpClass1\CSharpClass1\obj\Debug\CSharpClass1.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\새 폴더 (2)\CSharpClass1\CSharpClass1\obj\Debug\CSharpClass1.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\새 폴더 (2)\CSharpClass1\CSharpClass1\bin\Debug\CSharpClass1.exe.config
+C:\Users\admin\Desktop\새 폴더 (2)\CSharpClass1\CSharpClass1\bin\Debug\CSharpClass1.exe
+C:\Users\admin\Desktop\새 폴더 (2)\CSharpClass1\CSharpClass1\bin\Debug\CSharpClass1.pdb
+C:\Users\admin\Desktop\새 폴더 (2)\CSharpClass1\CSharpClass1\obj\Debug\CSharpClass1.exe
+C:\Users\admin\Desktop\새 폴더 (2)\CSharpClass1\CSharpClass1\obj\Debug\CSharpClass1.pdb

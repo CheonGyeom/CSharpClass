@@ -10,35 +10,62 @@ namespace Class3
     {
         static void Main(string[] args)
         {
-            ConsoleKeyInfo cski;
+            #region 키 입력하는 부분
 
-            int x = 10;
-            int y = 10;
+            //ConsoleKeyInfo cski;
 
-            while (true)
+            //int x = 10;
+            //int y = 10;
+
+            //while (true)
+            //{
+            //    Console.Clear();
+
+            //    Console.SetCursorPosition(x, y);
+
+            //    Console.Write("#");
+
+            //    cski = Console.ReadKey(true);
+
+            //    switch(cski.Key)
+            //    {
+            //        case ConsoleKey.LeftArrow:
+            //            x--;
+            //            break;
+            //        case ConsoleKey.RightArrow:
+            //            x++;
+            //            break;
+            //        case ConsoleKey.UpArrow:
+            //            y--;
+            //            break;
+            //        case ConsoleKey.DownArrow:
+            //            y++;
+            //            break;
+            //    }
+            //}
+
+            #endregion
+
+            int num;
+            string input;
+
+            for (int i = 0; i == 0;)
             {
-                Console.Clear();
+                input = System.Console.ReadLine();
 
-                Console.SetCursorPosition(x, y);
+                num = Convert.ToInt32(input);
 
-                Console.Write("#");
-
-                cski = Console.ReadKey(true);
-
-                switch(cski.Key)
+                if (num == 10)
                 {
-                    case ConsoleKey.LeftArrow:
-                        x--;
-                        break;
-                    case ConsoleKey.RightArrow:
-                        x++;
-                        break;
-                    case ConsoleKey.UpArrow:
-                        y--;
-                        break;
-                    case ConsoleKey.DownArrow:
-                        y++;
-                        break;
+                    break;
+                }
+                else if ((num % 2) == 0)
+                {
+                    continue;
+                }
+                else
+                {
+                    System.Console.WriteLine("다음 숫자 입력");
                 }
             }
         }

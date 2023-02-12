@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\Class2\새 폴더\HomeWork1\Homework_230212\Homework_230212\Homework_230212\bin\Debug\Homework_230212.exe.config
+C:\Users\admin\Desktop\Class2\새 폴더\HomeWork1\Homework_230212\Homework_230212\Homework_230212\bin\Debug\Homework_230212.exe
+C:\Users\admin\Desktop\Class2\새 폴더\HomeWork1\Homework_230212\Homework_230212\Homework_230212\bin\Debug\Homework_230212.pdb
+C:\Users\admin\Desktop\Class2\새 폴더\HomeWork1\Homework_230212\Homework_230212\Homework_230212\obj\Debug\Homework_230212.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Class2\새 폴더\HomeWork1\Homework_230212\Homework_230212\Homework_230212\obj\Debug\Homework_230212.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Class2\새 폴더\HomeWork1\Homework_230212\Homework_230212\Homework_230212\obj\Debug\Homework_230212.exe
+C:\Users\admin\Desktop\Class2\새 폴더\HomeWork1\Homework_230212\Homework_230212\Homework_230212\obj\Debug\Homework_230212.pdb
